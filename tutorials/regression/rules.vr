@@ -1,0 +1,150 @@
+
+[VALIDATE_1]
+###Rule
+exact-match
+
+###Question
+extract-match rule
+Answer: 
+test
+Test
+
+###Match
+test
+Test
+[VALIDATE_1]
+
+
+
+[VALIDATE_2]
+###Rule
+regex-substring
+
+###Question
+regex-sub-string:
+test1
+TEst2
+
+###Match
+test1
+TEst2 
+[VALIDATE_2]
+
+
+
+[VALIDATE_3]
+###Rule
+regex-begins-with
+
+###Question
+regex-begins-with
+begins with
+
+###Match
+begins with 
+[VALIDATE_3]
+
+
+
+[VALIDATE_4]
+###Rule
+regex-with-id-exact-match
+
+###Question
+regex-with-id-exact-match
+Enter URL to your application //[id] will be changed to uid
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATE_4]
+
+
+
+[VALIDATE_5]
+###Rule
+http-status-check
+
+###Question
+with 404
+EX: https://github.com/SAPDocuments/How-To-Contribution/issues/new?title=Feedback%20on%20Tutorial:%20How%20to%20download%20and%20install%20the%20HANA%20Eclipse%20plugin
+
+###Match
+404
+[VALIDATE_5]
+
+
+
+[VALIDATE_6]
+###Rule
+http-status-check
+
+###Question
+with 301 или 401
+Ex: https://api-onedx.find400.sap.com/api/v1/search
+
+###Match
+301, 401 
+[VALIDATE_6]
+
+
+
+[VALIDATE_7]
+###Rule
+http-status-check
+
+###Question
+with 200
+Ex: https://www.google.com
+
+###Match
+200
+[VALIDATE_7]
+
+
+
+[VALIDATE_8]
+###Rule
+single-choice
+
+###Question
+There are advances being made in science and technology everyday, and a good example of this is the LCD monitor. LCD monitors have several benefits over the old chunky computer monitors that most users are familiar with?
+Who you are? (answer is QA)
+
+###Match
+[ ] Developer
+[ ] BA
+[x] QA
+[ ] Boss
+[ ] Waiter
+[ ] Lawyer
+[ ] Doctor
+[ ] Accountant
+[ ] Pilot
+[ ] Teacher
+[ ] Manager
+[ ] Housewife
+[ ] Economist
+[VALIDATE_8]
+
+
+
+[VALIDATE_9]
+###Rule
+multiple-choice
+
+###Question
+There are advances being made in science and technology everyday, and a good example of this is the LCD monitor. LCD monitors have several benefits over the old chunky computer monitors that most users are familiar with?
+What do you like? (answer are comedy, adventure, horror)
+
+###Match
+[x] comedy
+[ ] drama
+[ ] fantastic
+[x] horror
+[ ] melodrama
+[ ] thriller
+[X] adventure
+[ ] erotic
+[ ] documentary
+[VALIDATE_9]

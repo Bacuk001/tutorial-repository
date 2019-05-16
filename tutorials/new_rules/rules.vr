@@ -1,0 +1,44 @@
+
+[VALIDATE_8]
+###Rule
+single-choice
+
+###Question
+Who you are? (answer is QA)
+
+###Match
+[ ] Developer
+[ ] BA
+[x] QA
+[ ] Boss
+[ ] Waiter
+[ ] Lawyer
+[ ] Doctor
+[ ] Accountant
+[ ] Pilot
+[ ] Teacher
+[ ] Manager
+[ ] Housewife
+[ ] Economist
+[VALIDATE_8]
+
+
+
+[VALIDATE_9]
+###Rule
+multiple-choice
+
+###Question
+What do you like? (answer are comedy, adventure, horror)
+
+###Match
+[x] comedy
+[ ] drama
+[ ] fantastic
+[x] horror
+[ ] melodrama
+[ ] thriller
+[X] adventure
+[ ] erotic
+[ ] documentary
+[VALIDATE_9]
