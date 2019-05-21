@@ -23,7 +23,7 @@ Now that your IoT Services are collecting data and you were able to view it your
 
 ---
 
-1. To be on the safe side go ahead and stop your `iotmms` Java application.
+1. To be on the safe side go ahead and stop your `iotmms` Java application.ds
 
 
 [ACCORDION-BEGIN [STEP 1](Accordion component which contains Task Lists in Body)]
