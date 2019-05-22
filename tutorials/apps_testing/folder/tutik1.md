@@ -1,6 +1,6 @@
 ---
 title: testing apps where primary tag is product/sapHana
-description: new Create a Destination to allow HANA Cloud Platform to nbvread/write data
+description: new Create a Destination to allow HANA Cloud Platform to nbvread/write data.Chanche
 tags: [tutorial:product/mobile]
 primary_tag: tutorial:product/sapHana
 ---
