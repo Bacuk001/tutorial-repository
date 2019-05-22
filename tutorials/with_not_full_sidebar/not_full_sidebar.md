@@ -1,5 +1,5 @@
 ---
-title: Tut with not fully sidebar2
+title: Tut with not fully sidebar2.user2
 description: Checking the esserver process and coordinator types to determine if Dynamic Tiering is running and if extended storage is created and running.агггааа
 
 primary_tag: products>sap-hana-dynamic-tiering
