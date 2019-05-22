@@ -1,7 +1,7 @@
 ---
 title: feeds 2 with beginner+advanced
 description: Part 10 of 10, Now connect your IoT Services to an SAP HANA XS shared instance and show the data using SAP HANA XS
-tags: [ tutorial>beginner, tutorial>advanced ]
+tags: [ tutorial>beginner,tutorial>beginner, tutorial>advanced ]
 primary_tag: tutorial:product/mobile
 ---
 
@@ -29,8 +29,8 @@ Now that your IoT Services are collecting data and you were able to view it your
 [ACCORDION-BEGIN [STEP 1](Accordion component which contains Task Lists in Body)]
 **Task Lists*** (Please note, this requires empty line before task list):
 
-  **Example:** 
-  
+  **Example:**
+
   [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]  
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -43,8 +43,8 @@ Now that your IoT Services are collecting data and you were able to view it your
 [ACCORDION-BEGIN [STEP 12](Accordion component which contains Task Lists in Body)]
 **Task Lists*** (Please note, this requires empty line before task list):
 
-  **Example:** 
-  
+  **Example:**
+
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
@@ -56,8 +56,8 @@ Now that your IoT Services are collecting data and you were able to view it your
 [ACCORDION-BEGIN [STEP 3](Accordion component which contains Task Lists in Body)]
 **Task Lists*** (Please note, this requires empty line before task list):
 
-  **Example:** 
-     
+  **Example:**
+
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item

@@ -1,7 +1,7 @@
 ---
 title: last rurorial-5
 description: new Create a Destination to allow HANA Cloud Platform to nbvread/write data
-tags: [tutorial:product/mobile]
+tags: [tutorial>beginner,tutorial:product/mobile]
 primary_tag: products>sap-hana
 auto_validation: true
 ---
@@ -17,8 +17,8 @@ auto_validation: true
 [ACCORDION-BEGIN [STEP 1](Accordion component which contains Task Lists in Body)]
 **Task Lists*** (Please note, this requires empty line before task list):
 
-  **Example:** 
-  
+  **Example:**
+
   [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]  
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -31,8 +31,8 @@ auto_validation: true
 [ACCORDION-BEGIN [STEP 12](Accordion component which contains Task Lists in Body)]
 **Task Lists*** (Please note, this requires empty line before task list):
 
-  **Example:** 
-  
+  **Example:**
+
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
@@ -44,8 +44,8 @@ auto_validation: true
 [ACCORDION-BEGIN [STEP 3](Accordion component which contains Task Lists in Body)]
 **Task Lists*** (Please note, this requires empty line before task list):
 
-  **Example:** 
-     
+  **Example:**
+
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a1 complete item
