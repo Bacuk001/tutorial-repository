@@ -1,7 +1,7 @@
 ---
 
 title: C11ontinuous Integration (CI) Best Practices with SAP: Source Code Versioning System
-description: Part 3.1: Setting up a Git/Gerrit Instance.OLD
+description: Part 3.1: Setting up a Git/Gerrit Instance.NEW
 tags: [ agreements:distribution_agreements/gtc ]
 primary_tag: topic>cloud
 ---
