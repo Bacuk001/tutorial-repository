@@ -1,11 +1,11 @@
 ---
 title: code syntax code code code test code
 description: 1code code
-tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java]
+tags: [tutorial>beginner,products>sap-hana-cloud-platform, topic>cloud, topic>java]
 primary_tag: tutorial:product/sapHana
 ---
- 
-  **Example:without code** 
+
+  **Example:without code**
 ```
 let apples = 3
 let oranges = 5
@@ -39,8 +39,8 @@ enum ServerResponse {
 7.simpleDescription
 ```
 
- 
- **Example:Swift** 
+
+ **Example:Swift**
 ```swift
 let apples = 3
 let oranges = 5
@@ -92,13 +92,13 @@ extension Int: ExampleProtocol {
 7.simpleDescription
 ```
 
- **Example:javascript** 
+ **Example:javascript**
 
 ```javascript
 rg) {
   20 line
   quit;
-function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -117,7 +117,7 @@ function fancyAlert(arg) {
   if(arg) {
   40 line
   quit;
-function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -136,7 +136,7 @@ function fancyAlert(arg) {
   if(arg) {
   60 line
   quit;
-function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -155,7 +155,7 @@ function fancyAlert(arg) {
   if(arg) {
   60 line
   quit;
-function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -174,7 +174,7 @@ function fancyAlert(arg) {
   if(arg) {
   80 line
   quit;
-function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -193,7 +193,7 @@ function fancyAlert(arg) {
   if(arg) {
   100 line
   quit;
-function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -205,7 +205,7 @@ function fancyAlert(arg) {
 }
 ```
 
-**Example:xml** 
+**Example:xml**
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -259,7 +259,7 @@ function fancyAlert(arg) {
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
@@ -268,7 +268,7 @@ function fancyAlert(arg) {
   -->
 </Project>
 ```
-**Example:java 625 rows** 
+**Example:java 625 rows**
 ```java
 // This is a generated file. Not intended for manual editing.
 package org.intellij.grammar.parser;
@@ -896,7 +896,7 @@ public class GrammarParser implements PsiParser, LightPsiParser {
   };
 }
 ```
-**Example:sql** 
+**Example:sql**
 ```sql
 CREATE KEYSPACE videodb WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
 
@@ -921,7 +921,7 @@ CREATE TABLE videos (
    videoid uuid,
    videoname varchar,
    username varchar,
-   description varchar, 
+   description varchar,
    tags list<varchar>,
    upload_date timestamp,
    PRIMARY KEY (videoid)
@@ -947,13 +947,13 @@ CREATE TABLE video_rating (
 
 // Creating index tables for tab keywords
 CREATE TABLE tag_index (
-   tag varchar, 
+   tag varchar,
    videoid uuid,
    timestamp timestamp,
    PRIMARY KEY (tag, videoid)
 );
 
-// Comments as a many-to-many 
+// Comments as a many-to-many
 // Looking from the video side to many users
 CREATE TABLE comments_by_video (
    videoid uuid,
@@ -983,12 +983,12 @@ CREATE TABLE video_event (
    PRIMARY KEY ((videoid,username), event_timestamp,event)
 ) WITH CLUSTERING ORDER BY (event_timestamp DESC,event ASC);
 ```
-**Example:abap 219 rows** 
+**Example:abap 219 rows**
 ```abap
 */**
 * The MIT License (MIT)
 * Copyright (c) 2012 René van Mil
-* 
+*
 * Permission is hereby granted, free of charge, to any person obtaining
 * a copy of this software and associated documentation files (the
 * "Software"), to deal in the Software without restriction, including
@@ -996,10 +996,10 @@ CREATE TABLE video_event (
 * distribute, sublicense, and/or sell copies of the Software, and to
 * permit persons to whom the Software is furnished to do so, subject to
 * the following conditions:
-* 
+*
 * The above copyright notice and this permission notice shall be
 * included in all copies or substantial portions of the Software.
-* 
+*
 * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
@@ -1205,7 +1205,7 @@ class cl_csv_parser implementation.
   endmethod.                    "_parse_line
 endclass.                    "CL_CSV_PARSER IMPLEMENTATION
 ```
-**Example:html** 
+**Example:html**
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1239,7 +1239,7 @@ endclass.                    "CL_CSV_PARSER IMPLEMENTATION
 </body>
 </html>
 ```
-**Example:json** 
+**Example:json**
 ```json
 {
      "firstName": "John",

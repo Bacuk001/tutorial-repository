@@ -1,7 +1,7 @@
 ---
 title: Video testingddddddd
-description: test page for several rules 
-tags: [ products>sap-hana-cloud-platform, topic>cloud, topic>java]
+description: test page for several rules
+tags: [ tutorial>beginner,products>sap-hana-cloud-platform, topic>cloud, topic>java]
 primary_tag: tutorial:product/sapHana
 ---
 
@@ -22,11 +22,11 @@ Every month, a mebber of SCN is rsi
 
 [ACCORDION-BEGIN [STEP 1](Accordion component which contains Images in Body)]
     ![Repositories](Funny-Baby-11.jpg)
-    
+
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]
 
 ![Repositories](Funny-Baby-11.jpg)
-    
+
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 2](Accordion component which contains link(s) in Body)]
@@ -38,7 +38,7 @@ Select a tutorial from the [Tutorial Navigator](http://go.sap.com/developer/tuto
 [ACCORDION-BEGIN [STEP 3](Accordion component which contains tables in Body)]
 ***Tables:***
 
-  **Example:** 
+  **Example:**
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]
 
@@ -196,7 +196,7 @@ We are currently in open beta for the new SAP community. Here's your opportunity
 [ACCORDION-BEGIN [STEP 6](Accordion component which contains Headers in Body)]
 ***Headers***
 
-  **Example:** 
+  **Example:**
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]
 ## This is an h2 header
@@ -211,13 +211,13 @@ We are currently in open beta for the new SAP community. Here's your opportunity
 [ACCORDION-BEGIN [STEP 7](Accordion component which contains Lists in Body)]
 ***Lists***
 
-  **Example:** 
-  
+  **Example:**
+
 Sometimes you want numbered lists:
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]
 1. One
-2. Two 
+2. Two
 3. Three
 
 Sometimes you want bullet points:
@@ -228,7 +228,7 @@ Sometimes you want bullet points:
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 8](Accordion component which contains nested lists in Body)]
-You can create nested lists: 
+You can create nested lists:
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]
 * item1
@@ -239,7 +239,7 @@ You can create nested lists:
 [ACCORDION-BEGIN [STEP 9](Accordion component which contains Blockquotes in Body)]
 ***Blockquotes***
 
-  **Example:** 
+  **Example:**
 In the words of Abraham Lincoln:
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]
@@ -255,27 +255,27 @@ In the words of Abraham Lincoln:
 >>### Warning
 >>>### Warning
 >>>>### Warning
->>>>This is a Warning. 
+>>>>This is a Warning.
 
 &nbsp;
 
 >### Caution
 >iikjhiojhioji
 >>### Caution
->>This is a Caution. 
+>>This is a Caution.
 
 &nbsp;
 
 >### Note
 
->This is a note. 
+>This is a note.
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 11](Accordion component which contains Task Lists in Body)]
 **Task Lists*** (Please note, this requires empty line before task list):
 
-  **Example:** 
-  
+  **Example:**
+
   [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/08/8adbcaf9-807c-0010-82c7-eda71af511fa.mp4)]  
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)

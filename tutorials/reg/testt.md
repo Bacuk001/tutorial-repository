@@ -1,7 +1,7 @@
 ---
 title: test for Alena
 description: new Create a Destination to allow HANA Cloud Platform to nbvread/write data
-tags: [tutorial:product/mobile]
+tags: [tutorial>beginner,tutorial:product/mobile]
 primary_tag: tutorial:product/sapHana
 ---
 

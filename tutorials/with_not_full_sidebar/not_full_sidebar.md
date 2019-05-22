@@ -3,7 +3,7 @@ title: Tut with not fully sidebar2.user2
 description: Checking the esserver process and coordinator types to determine if Dynamic Tiering is running and if extended storage is created and running.агггааа
 
 primary_tag: products>sap-hana-dynamic-tiering
-tags: [  products>sap-hana, products>sap-hana-dynamic-tiering, products>sap-hana-studio, products>sap-hana-cockpit, topic>big-data, topic>sql ]
+tags: [  tutorial>beginner,products>sap-hana, products>sap-hana-dynamic-tiering, products>sap-hana-studio, products>sap-hana-cockpit, topic>big-data, topic>sql ]
 ---
 
 ## Details
@@ -72,4 +72,3 @@ select * from M_SERVICES
 
 [DONE]
 [ACCORDION-END]
-
