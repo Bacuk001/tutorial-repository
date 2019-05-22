@@ -1,7 +1,7 @@
 ---
 
 title: C11ontinuous Integration (CI) Best Practices with SAP: Source Code Versioning System
-description: Part 3.1: Setting up a Git/Gerrit Instance. ghbdtn
+description: Part 3.1: Setting up a Git/Gerrit Instance.new
 tags: [ agreements:distribution_agreements/gtc ]
 primary_tag: topic>cloud
 ---
@@ -11,7 +11,7 @@ primary_tag: topic>cloud
   - **Proficiency:** Intermediate
 
 ## Next Steps
- 
+
   - [Build Scheduler](http://go.sap.com/developer/tutorials/ci-best-practices-build.html)
   - [Back to the Navigator](http://go.sap.com/developer/tutorials/ci-best-practices-intro.html)
 
@@ -46,7 +46,7 @@ Gerrit is available as open source and comes with a built-in installation of Git
 - Java JDK 1.7.0 or higher is installed on the machine.
 - Git is installed on the machine
 
-For installation of Git, see 
+For installation of Git, see
 
 > Git Homepage: https://git-scm.com/  
 > Git Downloads: https://git-scm.com/download/linux
@@ -60,12 +60,12 @@ For installation of Git, see
 3. Create a Gerrit installation directory. In this document, we call it `/data/gerrit`, but any other directory that follows the respective conventions
     will work as well. The file partition of the directory must be large enough to store all the Gerrit data, especially the database.
     The user `gerrit` must be the owner of the directory.
-    
+
     ```
     mkdir -p /data/gerrit
     chown gerrit /data/gerrit/
     ```
-   
+
 4. Log on as `gerrit`.
 
 5. Download the Gerrit installation (`gerrit.war` file) from the download site and save it to `/data/gerrit`.
@@ -79,7 +79,7 @@ For installation of Git, see
     ```
 
     During the installation procedure, you may approve any configuration proposal with "Enter".
-    
+
 7. To get the server up quickly with the ability to administer it, open the Gerrit configuration file `/data/gerrit/etc/gerrit.config` and set the authentication method to:
 
     ```
@@ -88,7 +88,7 @@ For installation of Git, see
     ```
 
     For security reasons, you should change this to an appropriate authentication method as soon as possible.
-    
+
 8. Start the Gerrit daemon.
 
     ```
@@ -109,6 +109,6 @@ For installation of Git, see
 
 
 ## Next Steps
- 
+
   - [Build Scheduler](http://go.sap.com/developer/tutorials/ci-best-practices-build.html)
   - [Back to the Navigator](http://go.sap.com/developer/tutorials/ci-best-practices-intro.html)
